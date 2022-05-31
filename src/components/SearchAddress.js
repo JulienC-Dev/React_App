@@ -1,6 +1,8 @@
 function SearchAddress(){
     return (<div>
-        SearchAddress 
-    </div>)
+        SearchAddress
+        </div> 
+        )
 }
+
 export default SearchAddress;

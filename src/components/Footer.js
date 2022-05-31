@@ -4,7 +4,7 @@ import '../styles/Footer.css'
 
 function Footer(){
     return (<div className='footer-main'>
-        <Condition/>
+        <Condition/>     
     </div>)
 }
 

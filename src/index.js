@@ -3,19 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
-import Header from './components/Header';
-import Footer from './components/Footer'
-import Sidebar from './components/Sidebar'
+import { BrowserRouter} from "react-router-dom";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <React.StrictMode>
-    <Header />
-    <Sidebar /> 
-    <App />
-    <Footer />
+  <React.StrictMode>  
+    <BrowserRouter >
+          <App />
+    </BrowserRouter> 
   </React.StrictMode>
 );
 

@@ -3,7 +3,7 @@ import SearchAddress from './SearchAddress'
 import LogoApp from './LogoApp'
 import Profile from './Profile'
 
-function Header(){
+function Header({showResults, setShowResults}){
     // const citation_header = [
     //     {
     //         name: 'plantfdfddf',
