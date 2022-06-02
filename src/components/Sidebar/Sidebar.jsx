@@ -1,4 +1,4 @@
-import '../styles/Sidebar.css';
+import '../../styles/Sidebar.css';
 import SidebarLogo from './SidebarLogo';
 import SidebarFilter from './SidebarFilter';
 

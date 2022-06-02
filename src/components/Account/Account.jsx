@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 
 function Account({tx}){
   return (
@@ -19,6 +20,10 @@ function Account({tx}){
             </div>
         </div>
   )
+}
+
+Account.propTypes = {
+    tx: PropTypes.array,
 }
 
 

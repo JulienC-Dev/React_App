@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
-import Footer from "./Footer";
-import Header from './Header';
-import Sidebar from './Sidebar';
+import Footer from "../components/Footer/Footer";
+import Header from '../components/Header/Header';
+import Sidebar from '../components/Sidebar/Sidebar';
 
 
-function Home(){
+function Home({tx}){
     return (<div>
         <Header/>
         <Sidebar />

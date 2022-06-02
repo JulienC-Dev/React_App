@@ -1,5 +1,5 @@
 import Condition from './Condition'
-import '../styles/Footer.css'
+import '../../styles/Footer.css'
 
 
 function Footer(){

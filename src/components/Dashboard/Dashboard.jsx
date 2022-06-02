@@ -1,5 +1,5 @@
-import Account from './Account';
-import '../styles/App.css';
+import Account from '../Account/Account';
+import '../../styles/App.css';
 
 
 function Dashboard({tx}){
@@ -7,6 +7,7 @@ function Dashboard({tx}){
         <main className='app-main'>
             <Account tx = {tx} />
         </main>
+        
  )
 }
 
