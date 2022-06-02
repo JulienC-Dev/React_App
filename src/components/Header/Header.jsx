@@ -1,15 +1,18 @@
 import '../../styles/Header.css' 
-import SearchAddress from './SearchAddress'
+import SearchNav from './SearchNav'
 import LogoApp from './LogoApp'
 import {Wrapper} from './Style';
+import Profile from './Profile';
+import { useState } from "react";
 
 
-
-function Header({showResults, setShowResults}){
+function Header(){
+    const [isOpen, setIsOpen] = useState(false)
     return (
         <Wrapper>
             <LogoApp/>
-            <SearchAddress/>
+            <SearchNav isOpen={isOpen} setIsOpen={setIsOpen}/>
+            <Profile/>
         </Wrapper>
     )
 }
